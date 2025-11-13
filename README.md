@@ -78,6 +78,11 @@ Requirements Met
 
 ## Changelog
 
+### 2025-11-13
+- Filter: Replaced inline empty-state view with reusable `EmptyState` component.
+- Home: Confirmed non-overlapping buttons using ScrollView + spacing.
+- Docs: Updated changelog to reflect refactors and polish for final PoE.
+
 ### 2025-11-07
 - Refactor: Extracted `utils/format.ts` with `formatPrice` and `getCourseName` helpers, and replaced inline formatting in `CategoryScreen` and `FilterByCourseScreen` for consistency and reuse.
 - Refactor: Added `components/EmptyState.tsx` and used it in the Filter screen for cleaner, reusable empty-state UI.
